@@ -142,7 +142,6 @@ intro-to-python/
 │
 ├── service/              # Service module
 │   ├── __init__.py       # Initialization file for the package
-│   ├── AlbumService.py   # Album service abstraction
 │   ├── filecache.py      # File cache implementation
 │   └── itunes.py         # iTunes implementation
 │
@@ -178,3 +177,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ### Good luck with your final project, and happy coding! 🎉
+
+## Branch Notes
+
+- The `async` branch shows how to use httpx to make asynchronous requests to the iTunes API, and how the rest of the API and testing code can be refactored to use async/await.
